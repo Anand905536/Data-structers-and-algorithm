@@ -1,0 +1,10 @@
+template<typename T>
+class treenode
+{
+     T data;
+	vector<treenode*<T>>children;
+	treenode(int data)
+	{
+	this->data=data;
+	}
+}
